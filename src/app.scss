@@ -1,0 +1,46 @@
+//variabili riutilizzabili
+
+$color_button : #ffffff;
+$color_title : #be99ee;
+$b_radius_button: 4px;
+$margin_b: 20px;
+$color_hover: #95b7c7;
+$color_brand: #acbfff;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.box {
+    padding: 20px 40px;
+    width: 600px;
+    margin: 30px auto;
+    min-height: 80px;
+    border: 2px solid $color_brand;
+    text-align: center;
+}
+button {
+    color: $color_button;
+    background-color: $color_brand;
+    border-radius: $b_radius_button;
+    border: 2px solid $color_brand;
+}
+button.sm{
+    padding: 5px 8px;
+}
+button.md{
+    padding:15px 24px;
+}
+button.lg{
+    padding: 30px 42px;
+}
+button:hover{
+    background-color: $color_hover;
+    border: 2px solid $color_hover;
+}
+h2{
+    margin-bottom: $margin_b;
+    color: $color_title;
+}
